@@ -1,0 +1,16 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 42px;
+    list-style-type: none;
+}
+
+.navbar-logo {
+    width: 196px;
+}

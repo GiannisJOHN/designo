@@ -1,9 +1,16 @@
 
+import Navbar from "../../components/navbar"
 
-function App() {
+//all css files
+import '../../css/css.js'
+
+function App(props) {
   return (
     <>
-      <h1>Hello World</h1>
+      <main className="main-side-padding main-center">
+        <Navbar />
+        {props.children}
+      </main>
     </>
   )
 }
