@@ -7,7 +7,7 @@ import '../../css/css.js'
 function App(props) {
   return (
     <>
-      <main className="main-side-padding main-center">
+      <main className="main-center">
         <Navbar />
         {props.children}
       </main>

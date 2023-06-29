@@ -5,7 +5,7 @@ function HomeHero() {
     return (
         <header className='container home-hero-container'>
             <div className='home-hero-wrapper'>
-                <div>
+                <div className='home-hero-title-wrapper'>
                     <h1 className='title light-text home-hero-title'>
                         Award-winning custom designs and digital branding solutions
                     </h1>
