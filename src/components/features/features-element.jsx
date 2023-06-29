@@ -2,7 +2,7 @@ import React from 'react'
 
 function FeaturesElement(props) {
     return (
-        <div>
+        <div className='feature-element-wrapper'>
             <img className="feature-img" src={props.data.image} alt="" />
             <div className="feature-title-wrapper">
                 <h3>{props.data.title}</h3>

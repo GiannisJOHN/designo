@@ -25,6 +25,7 @@
 }
 
 .container {
+	box-sizing: content-box;
 	width: 100%;
 	max-width: 1111px;
 	padding: 0 40px;
