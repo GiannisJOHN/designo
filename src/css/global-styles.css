@@ -24,10 +24,13 @@
 	align-items: center;
 }
 
+.section-space {
+	margin-top: 160px;
+}
+
 .container {
-	box-sizing: content-box;
 	width: 100%;
-	max-width: 1111px;
+	max-width: calc(1111px + 40px * 2);
 	padding: 0 40px;
 }
 
@@ -105,5 +108,9 @@
 
 	.container {
 		padding: 0 24px;
+	}
+
+	.section-space {
+		margin-top: 120px;
 	}
 }

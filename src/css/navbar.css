@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 64px;
+    height: 155px;
 }
 
 .navbar-list {
@@ -13,4 +13,10 @@
 
 .navbar-logo {
     width: 196px;
+}
+
+@media (max-width: 375px) {
+    .navbar-container {
+        height: 96px;
+    }
 }

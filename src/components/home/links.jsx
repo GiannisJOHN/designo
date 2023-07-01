@@ -3,7 +3,7 @@ import LinkBox from '../link-box'
 
 function Links() {
     return (
-        <div className='container links-container'>
+        <div className='container links-container section-space'>
             <LinkBox name='web' />
             <LinkBox name='app' />
             <LinkBox name='graphic' />

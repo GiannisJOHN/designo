@@ -11,7 +11,7 @@ function Features() {
     }
 
     return (
-        <section className='container features-container'>
+        <section className='container features-container section-space'>
             {renderFeatureElements(featuresData)}
         </section>
     )

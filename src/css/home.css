@@ -1,6 +1,5 @@
 .home-hero-container {
-    margin-top: 67px;
-    margin-bottom: 160px;
+
 }
 
 .home-hero-wrapper {
@@ -16,8 +15,9 @@
 .home-hero-title {
     width: 100%;
     min-width: 540px;
+    max-width: 540px;
     height: auto;
-    margin-bottom: 11px;
+    margin-bottom: 32px;
 }
 
 .home-hero-paragraph {
@@ -71,6 +71,7 @@
     .home-hero-title {
         min-width: initial;
         max-width: 540px;
+        margin-bottom: 29px;
     }
 
     .home-hero-paragraph {
@@ -98,9 +99,14 @@
     .home-hero-title {
         min-height: 118px;
         margin-bottom: 14px;
+        max-width: 427px;
     }
 
     .home-hero-img-container {
         margin-top: 80px;
+    }
+
+    .home-hero-paragraph {
+        margin-bottom: 24px;
     }
 }
