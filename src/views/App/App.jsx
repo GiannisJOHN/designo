@@ -1,4 +1,6 @@
 
+import CallToAction from "../../components/call-to-action"
+import Footer from "../../components/footer"
 import Navbar from "../../components/navbar"
 
 //all css files
@@ -9,7 +11,9 @@ function App(props) {
     <>
       <main className="main-center">
         <Navbar />
-        {props.children}
+          {props.children}
+        <CallToAction />
+        <Footer />
       </main>
     </>
   )
