@@ -12,6 +12,7 @@
     position: relative;
     gap: 24px;
     cursor: pointer;
+    padding: 0 15px;
 }
 
 .link-box-web {

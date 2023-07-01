@@ -44,3 +44,20 @@
         margin-bottom: 32px;
     }
 }
+
+@media (max-width: 575px) {
+    .call-to-action-container {
+        min-height: 379px;
+        padding: 0 24px;
+    }
+
+    .call-to-action-title {
+        max-width: 268px;
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 36px;
+        margin-bottom: 6px;
+        min-height: 82px;
+    }
+}
