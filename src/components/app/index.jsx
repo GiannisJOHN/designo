@@ -1,7 +1,7 @@
 
-import CallToAction from "../../components/call-to-action"
-import Footer from "../../components/footer"
-import Navbar from "../../components/navbar"
+import CallToAction from "../call-to-action"
+import Footer from "../footer"
+import Navbar from "../navbar"
 
 //all css files
 import '../../css/css.js'

@@ -9,10 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: relative;
-    gap: 24px;
     cursor: pointer;
-    padding: 0 15px;
 }
 
 .link-box-web {
@@ -28,7 +25,21 @@
     background-image: url('../assets/home/desktop/image-graphic-design.jpg');
 }
 
-.link-box::before {
+.link-box-a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+	color: inherit;
+    padding: 0 15px;
+}
+
+.link-box-a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -41,7 +52,7 @@
     transition: background-color 0.3s ease; 
 }
 
-.link-box:hover::before {
+.link-box-a:hover::before {
     opacity: 0.8006184697151184;
     background: var(--color-peach);
 }
