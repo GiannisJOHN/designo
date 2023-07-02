@@ -1,5 +1,5 @@
 import React from 'react'
-import featuresData from './features-data'
+import featuresData from '../../data/features-data.js'
 import FeaturesElement from './features-element'
 
 function Features() {

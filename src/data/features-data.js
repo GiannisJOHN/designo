@@ -1,6 +1,6 @@
-import firstImg from '../../assets/home/desktop/illustration-passionate.svg'
-import secondImg from '../../assets/home/desktop/illustration-resourceful.svg'
-import thirdImg from '../../assets/home/desktop/illustration-friendly.svg'
+import firstImg from '../assets/home/desktop/illustration-passionate.svg'
+import secondImg from '../assets/home/desktop/illustration-resourceful.svg'
+import thirdImg from '../assets/home/desktop/illustration-friendly.svg'
 
 const featuresData = [
     {
