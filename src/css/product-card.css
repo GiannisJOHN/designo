@@ -1,0 +1,12 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card-img {
+    width: 100%;
+}
+
+.product-card-info-container {
+    background-color: rgba(253, 243, 240, 1);
+}
