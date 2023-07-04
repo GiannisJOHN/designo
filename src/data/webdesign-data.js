@@ -5,7 +5,15 @@ import webImg4 from '../assets/web-design/desktop/image-builder.jpg'
 import webImg5 from '../assets/web-design/desktop/image-blogr.jpg'
 import webImg6 from '../assets/web-design/desktop/image-camp.jpg'
 
-const webdesignData = [
+
+export const webdesignInfo = {
+  title: 'Web Design',
+  subtitle: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
+  link1: 'app',
+  link2: 'graphic',
+}
+
+export const webdesignData = [
     {
       img: webImg1,
       title: 'EXPRESS',
@@ -37,6 +45,3 @@ const webdesignData = [
       text: 'get expert training in coding, data, design, and digital marketing'
     }
   ]
-  
-
-  export default webdesignData

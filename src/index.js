@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './views/Home'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import WebDesign from './views/Web design'
+import ProductPage from './views/Product Page'
+
+
 
 
 const router = createBrowserRouter([
@@ -12,8 +14,16 @@ const router = createBrowserRouter([
   },
   {
     path: "/webdesign",
-    element: <WebDesign />,
+    element: <ProductPage />,
   },
+  {
+    path: "/appdesign",
+    element: <ProductPage />,
+  },
+  {
+    path: "/graphicdesign",
+    element: <ProductPage />,
+  }
 ])
 
 
