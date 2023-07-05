@@ -4,3 +4,9 @@
     grid-auto-rows: auto;
     gap: 30.5px;
 }
+
+@media (max-width: 398px) {
+    .product-grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
