@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Home from './views/Home'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import ProductPage from './views/Product Page'
+import About from './views/About'
 
 
 
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
   {
     path: "/webdesign",

@@ -6,7 +6,7 @@
 }
 
 .navbar-list {
-    display: none;
+    display: flex;
     gap: 42px;
     list-style-type: none;
 }
