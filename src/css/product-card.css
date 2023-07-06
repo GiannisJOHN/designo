@@ -36,7 +36,7 @@
     color: var(--color-dark-grey);
 }
 
-@media (min-width: 560px) and (max-width: 811px) {
+@media (min-width: 500px) and (max-width: 830px) {
     .product-card {
         flex-direction: row;
         height: 310px;
@@ -63,12 +63,16 @@
     }
 }
 
-@media (max-width: 398px) {
+@media (max-width: 375px) {
     .product-card-img-container {
         display: flex;
         min-height: auto;
     }
     .product-card {
         height: auto;
+    }
+    .product-card-img {
+        height: 320px;
+        width: auto;
     }
 }
