@@ -7,9 +7,9 @@ function LocationItem(props) {
         <div className='locations-item'>
             <div className="locations-item-img-wrapper">
                 <picture>
-                    <source srcSet={props.data.imgDesktop} media="(min-width: 966px)"/>
-                    <source srcSet={props.data.imgTablet} media="(min-width: 400px)"/>
-                    <img src="" alt="" />
+                    <source srcSet={props.data.imgDesktop} media="(min-width: 895px)"/>
+                    <source srcSet={props.data.imgTablet} media="(min-width: 0)"/>
+                    <img className='locations-item-img' src="" alt="" />
                 </picture>
             </div>
             <div className="locations-item-title-wrapper">
