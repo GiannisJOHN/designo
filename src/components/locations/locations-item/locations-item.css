@@ -1,0 +1,36 @@
+.locations-item {
+    display: flex;
+    gap: 30px;
+    height: 326px;
+    width: 100%;
+}
+
+.locations-item-title-wrapper {
+    border-radius: 15px;
+    background-color: rgba(253, 243, 240, 1);
+    width: 100%;
+    max-width: 730px;
+    padding: 88px 95px;
+}
+
+.locations-item-list {
+    list-style-type: none;
+    width: 100%;
+    max-width: 255px;
+    color: var(--color-dark-grey);
+}
+
+.locations-item-title {
+    color: var(--color-peach);
+    margin-bottom: 24px;
+}
+
+.locations-item-info-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.locations-item-img-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+}

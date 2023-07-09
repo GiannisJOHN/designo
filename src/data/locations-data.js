@@ -1,11 +1,11 @@
 import canadaMapDesktop from '../assets/locations/desktop/image-map-canada.png'
-import canadaMapMobile from '../assets/locations/mobile/image-map-canada.png'
+import canadaMapMobile from '../assets/locations/tablet/image-map-canada.png'
 
 import australiaMapDesktop from '../assets/locations/desktop/image-map-australia.png'
-import australiaMapMobile from '../assets/locations/mobile/image-map-australia.png'
+import australiaMapMobile from '../assets/locations/tablet/image-map-australia.png'
 
 import ukMapDesktop from '../assets/locations/desktop/image-map-united-kingdom.png'
-import ukMapMobile from '../assets/locations/mobile/image-map-united-kingdom.png'
+import ukMapMobile from '../assets/locations/tablet/image-map-uk.png'
 
 
 export const locationsData = [
