@@ -35,6 +35,7 @@
     height: 480px;
     object-fit: cover;
 }
+
 @media (max-width: 900px)  {
     .about-hero-title-wrapper {
         padding: 64px 58px;

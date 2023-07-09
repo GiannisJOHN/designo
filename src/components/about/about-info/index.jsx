@@ -13,7 +13,7 @@ function AboutInfo(props) {
             <div className='about-info-container'>
                 <div className={`about-info-img-container ${order[1]}`}>
                     <picture>
-                        <source  srcSet={props.data.imgDesktop} media="(min-width: 965px)" type="image/jpg"/>
+                        <source  srcSet={props.data.imgDesktop} media="(min-width: 966px)" type="image/jpg"/>
                         <source  srcSet={props.data.imgTablet} media="(min-width: 600px)" type="image/jpg"/>
                         <source  srcSet={props.data.imgMobile} media="(min-width: 0)" type="image/jpg"/>
                         <img className='about-info-img' src="" alt="" />

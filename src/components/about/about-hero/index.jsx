@@ -13,8 +13,8 @@ function AboutHero() {
             </div>
             <div className='about-hero-img-container'>
                 <picture>
-                    <source  srcSet={aboutImgDesktop} media="(min-width: 770px)" type="image/jpg"/>
-                    <source  srcSet={aboutImgTablet} media="(min-width: 375px)" type="image/jpg"/>
+                    <source  srcSet={aboutImgDesktop} media="(min-width: 771px)" type="image/jpg"/>
+                    <source  srcSet={aboutImgTablet} media="(min-width: 376px)" type="image/jpg"/>
                     <source  srcSet={aboutImgMobile} media="(min-width: 0)" type="image/jpg"/>
                     <img className='about-hero-img' src="" alt="" />
                 </picture>

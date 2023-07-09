@@ -12,6 +12,9 @@ function Navbar() {
                 <li>
                     <Link to='/about'>OUR COMPANY</Link>
                 </li>
+                <li>
+                    <Link to='/locations'>LOCATIONS</Link>
+                </li>
             </ul>
         </nav>
     )
