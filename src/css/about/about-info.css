@@ -1,0 +1,37 @@
+.about-info-container {
+    display: flex;
+    height: 640px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.about-info-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(253, 243, 240, 1);
+    width: 100%;
+    max-width: 635px;
+    padding: 154px 95px;
+}
+
+.about-info-title {
+    color: var(--color-peach);
+}
+
+.about-info-text {
+    color: var(--color-dark-grey);
+    margin-top: 24px;
+}
+
+.about-info-img-container {
+    width: 100%;
+    max-width: 476px;
+}
+
+.about-order-1 {
+    order: 1;
+}
+
+.about-order-2 {
+    order: 2;
+}

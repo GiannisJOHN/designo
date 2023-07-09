@@ -6,6 +6,7 @@ import ProductPage from './views/Product Page'
 import About from './views/About'
 
 
+import './css/css.js'
 
 
 const router = createBrowserRouter([

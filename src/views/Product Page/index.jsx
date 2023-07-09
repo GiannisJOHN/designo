@@ -3,7 +3,7 @@ import App from '../../components/app'
 import PageHeader from '../../components/page-header'
 import ProductGrid from '../../components/product-grid'
 import ProductCard from '../../components/product-card'
-import { renderProducts } from '../../utils/render-products'
+import { renderItems} from '../../utils/render-items'
 import LinkBox from '../../components/link-box'
 import { useMatches } from "react-router-dom";
 
@@ -38,7 +38,7 @@ function ProductPage() {
                 title={info.title}
                 text={info.subtitle}/>
             <ProductGrid>
-                {renderProducts(data, ProductCard)}
+                {renderItems(data, ProductCard)}
             </ProductGrid>
             <div className='container links-container section-space'>
                 <LinkBox name={info.link1} />

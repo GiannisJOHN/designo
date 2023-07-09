@@ -1,14 +1,23 @@
 import React from 'react'
 
 function AboutInfo(props) {
+
+    let order = ['about-order-1', 'about-order-2']
+
+    if (props.reverse === true) {
+        order.reverse()
+    }
+
     return (
         <div className='container section-space'>
-            <div className="about-info-title-wrapper">
-                <h1>{props.data.title}</h1>
-                <p className="paragraph">{props.data.text}</p>
-            </div>
-            <div className="about-info-img-container">
-                <img src={props.data.img} alt="" className="about-info-img" />
+            <div className='about-info-container'>
+                <div className={`about-info-title-wrapper ${order[0]}`}>
+                    <h1 className='title about-info-title'>{props.data.title}</h1>
+                    <p className="paragraph about-info-text">{props.data.text}</p>
+                </div>
+                <div className={`about-info-img-container ${order[1]}`}>
+                    <img src={props.data.img} alt="" className="about-info-img" />
+                </div>
             </div>
         </div>
     )

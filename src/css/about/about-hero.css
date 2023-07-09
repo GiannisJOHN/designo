@@ -75,3 +75,10 @@
         display: inline;
     }
 }
+
+@media (max-width: 500px) {
+    .about-hero-title-wrapper, .about-hero-img-container {
+        border-radius: 0;
+    }
+    
+}
