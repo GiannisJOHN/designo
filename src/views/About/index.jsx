@@ -11,7 +11,7 @@ function About() {
     return (
         <App>
             <AboutHero />
-            <AboutInfo data={aboutInfoData[0]} reverse={true}/>
+            <AboutInfo data={aboutInfoData[0]} reverse={true} select='firstAboutInfoCard' />
             <LocationLinksContainer>
                 {renderItems(locationLinksData, LocationLinksItem)}
             </LocationLinksContainer>

@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutImgDesktop from '../../../assets/about/desktop/image-about-hero.jpg'
 import aboutImgTablet from '../../../assets/about/tablet/image-about-hero.jpg'
+import aboutImgMobile from '../../../assets/about/mobile/image-about-hero.jpg'
 
 function AboutHero() {
 
@@ -11,8 +12,12 @@ function AboutHero() {
                 <p className='paragraph light-text about-hero-paragraph'>Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences.</p>
             </div>
             <div className='about-hero-img-container'>
-                <img className='about-hero-img about-hero-img-desktop' src={aboutImgDesktop} alt="" />
-                <img className='about-hero-img about-hero-img-tablet' src={aboutImgTablet} alt="" />
+                <picture>
+                    <source  srcSet={aboutImgDesktop} media="(min-width: 770px)" type="image/jpg"/>
+                    <source  srcSet={aboutImgTablet} media="(min-width: 375px)" type="image/jpg"/>
+                    <source  srcSet={aboutImgMobile} media="(min-width: 0)" type="image/jpg"/>
+                    <img className='about-hero-img' src="" alt="" />
+                </picture>
             </div>
         </header>
     )
