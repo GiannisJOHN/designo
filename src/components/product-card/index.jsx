@@ -1,4 +1,5 @@
 import React from 'react'
+import './product-card.css'
 
 function ProductCard(props) {
     return (

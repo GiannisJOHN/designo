@@ -114,4 +114,9 @@
 	.section-space {
 		margin-top: 120px;
 	}
+
+	.remove-padding {
+        padding: 0;
+    }
+
 }

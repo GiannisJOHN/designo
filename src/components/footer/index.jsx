@@ -4,6 +4,7 @@ import youtube from '../../assets/shared/desktop/icon-youtube.svg'
 import twitter from '../../assets/shared/desktop/icon-twitter.svg'
 import pinterest from '../../assets/shared/desktop/icon-pinterest.svg'
 import instagram from '../../assets/shared/desktop/icon-instagram.svg'
+import './footer.css'
 
 
 

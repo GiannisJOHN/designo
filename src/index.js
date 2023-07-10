@@ -7,7 +7,7 @@ import About from './views/About'
 import Locations from './views/Locations'
 
 
-import './css/css.js'
+import './css/global-styles.css'
 
 
 const router = createBrowserRouter([

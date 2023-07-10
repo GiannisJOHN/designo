@@ -16,10 +16,6 @@
 }
 
 @media (max-width: 500px) {
-    .remove-padding {
-        padding: 0;
-    }
-
     .page-header-container {
         border-radius: 0;
         min-height: 320px;
