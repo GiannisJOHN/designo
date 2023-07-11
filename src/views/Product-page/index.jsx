@@ -1,16 +1,16 @@
 import React from 'react'
-import App from '../../components/app'
-import PageHeader from '../../components/page-header'
-import ProductGrid from '../../components/product-grid'
-import ProductCard from '../../components/product-card'
-import { renderItems} from '../../utils/render-items'
-import LinkBox from '../../components/link-box'
-import { useMatches } from "react-router-dom";
+import App from 'components/shared-components/app'
+import PageHeader from 'components/shared-components/page-header'
+import ProductGrid from 'components/shared-components/product-grid'
+import ProductCard from 'components/shared-components/product-card'
+import { renderItems} from 'utils/render-items'
+import LinkBox from 'components/shared-components/link-box'
+import { useMatches } from "react-router-dom"
 
 //Data
-import { webdesignInfo, webdesignData } from '../../data/webdesign-data'
-import { appdesignInfo, appdesignData } from '../../data/appdesign-data'
-import { graphicdesignInfo, graphicdesignData } from '../../data/graphicdesign-data'
+import { webdesignInfo, webdesignData } from 'data/webdesign-data'
+import { appdesignInfo, appdesignData } from 'data/appdesign-data'
+import { graphicdesignInfo, graphicdesignData } from 'data/graphicdesign-data'
 
 function ProductPage() {
     let pathname = useMatches()[0].pathname

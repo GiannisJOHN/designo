@@ -1,11 +1,11 @@
-import canadaMapDesktop from '../assets/locations/desktop/image-map-canada.png'
-import canadaMapMobile from '../assets/locations/tablet/image-map-canada.png'
+import canadaMapDesktop from 'assets/locations/desktop/image-map-canada.png'
+import canadaMapMobile from 'assets/locations/tablet/image-map-canada.png'
 
-import australiaMapDesktop from '../assets/locations/desktop/image-map-australia.png'
-import australiaMapMobile from '../assets/locations/tablet/image-map-australia.png'
+import australiaMapDesktop from 'assets/locations/desktop/image-map-australia.png'
+import australiaMapMobile from 'assets/locations/tablet/image-map-australia.png'
 
-import ukMapDesktop from '../assets/locations/desktop/image-map-united-kingdom.png'
-import ukMapMobile from '../assets/locations/tablet/image-map-uk.png'
+import ukMapDesktop from 'assets/locations/desktop/image-map-united-kingdom.png'
+import ukMapMobile from 'assets/locations/tablet/image-map-uk.png'
 
 
 export const locationsData = [
@@ -17,7 +17,8 @@ export const locationsData = [
         phone: '+1 253-863-8967',
         mail: 'contact@designo.co',
         imgDesktop: canadaMapDesktop,
-        imgTablet: canadaMapMobile
+        imgTablet: canadaMapMobile,
+        orderReverse: false
     },
     {
         title: 'Australia',
@@ -27,7 +28,8 @@ export const locationsData = [
         phone: '(02) 6720 9092',
         mail: 'contact@designo.au',
         imgDesktop: australiaMapDesktop,
-        imgTablet: australiaMapMobile
+        imgTablet: australiaMapMobile,
+        orderReverse: true
     },
     {
         title: 'United Kingdom',
@@ -37,6 +39,7 @@ export const locationsData = [
         phone: '078 3115 1400',
         mail: 'contact@designo.uk',
         imgDesktop: ukMapDesktop,
-        imgTablet: ukMapMobile
+        imgTablet: ukMapMobile,
+        orderReverse: false
     }
 ]

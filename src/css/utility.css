@@ -1,0 +1,13 @@
+.flex-order-1 {
+    order: 1;
+}
+
+.flex-order-2 {
+    order: 2;
+}
+
+@media (max-width: 965px) {
+    .flex-order-1, .flex-order-2 {
+        order: 0;
+    }
+}

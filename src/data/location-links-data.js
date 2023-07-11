@@ -1,6 +1,6 @@
-import imgCanada from '../assets/shared/desktop/illustration-canada.svg'
-import imgAustralia from '../assets/shared/desktop/illustration-australia.svg'
-import imgUnitedKingdom from '../assets/shared/desktop/illustration-united-kingdom.svg'
+import imgCanada from 'assets/shared/desktop/illustration-canada.svg'
+import imgAustralia from 'assets/shared/desktop/illustration-australia.svg'
+import imgUnitedKingdom from 'assets/shared/desktop/illustration-united-kingdom.svg'
 
 
 export const locationLinksData = [

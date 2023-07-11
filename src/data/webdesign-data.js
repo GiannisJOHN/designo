@@ -1,9 +1,9 @@
-import webImg1 from '../assets/web-design/desktop/image-express.jpg'
-import webImg2 from '../assets/web-design/desktop/image-transfer.jpg'
-import webImg3 from '../assets/web-design/desktop/image-photon.jpg'
-import webImg4 from '../assets/web-design/desktop/image-builder.jpg'
-import webImg5 from '../assets/web-design/desktop/image-blogr.jpg'
-import webImg6 from '../assets/web-design/desktop/image-camp.jpg'
+import webImg1 from 'assets/web-design/desktop/image-express.jpg'
+import webImg2 from 'assets/web-design/desktop/image-transfer.jpg'
+import webImg3 from 'assets/web-design/desktop/image-photon.jpg'
+import webImg4 from 'assets/web-design/desktop/image-builder.jpg'
+import webImg5 from 'assets/web-design/desktop/image-blogr.jpg'
+import webImg6 from 'assets/web-design/desktop/image-camp.jpg'
 
 
 export const webdesignInfo = {

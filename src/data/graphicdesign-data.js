@@ -1,6 +1,6 @@
-import webImg1 from '../assets/graphic-design/desktop/image-change.jpg'
-import webImg2 from '../assets/graphic-design/desktop/image-boxed-water.jpg'
-import webImg3 from '../assets/graphic-design/desktop/image-science.jpg'
+import webImg1 from 'assets/graphic-design/desktop/image-change.jpg'
+import webImg2 from 'assets/graphic-design/desktop/image-boxed-water.jpg'
+import webImg3 from 'assets/graphic-design/desktop/image-science.jpg'
 
 
 export const graphicdesignInfo = {

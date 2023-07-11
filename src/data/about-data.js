@@ -1,10 +1,10 @@
-import worldClassTalentImgDesktop from '../assets/about/desktop/image-world-class-talent.jpg'
-import worldClassTalentImgTablet from '../assets/about/tablet/image-world-class-talent.jpg'
-import worldClassTalentImgMobile from '../assets/about/mobile/image-world-class-talent.jpg'
+import worldClassTalentImgDesktop from 'assets/about/desktop/image-world-class-talent.jpg'
+import worldClassTalentImgTablet from 'assets/about/tablet/image-world-class-talent.jpg'
+import worldClassTalentImgMobile from 'assets/about/mobile/image-world-class-talent.jpg'
 
-import theRealDealImgDesktop from '../assets/about/desktop/image-real-deal.jpg'
-import theRealDealImgTablet from '../assets/about/tablet/image-real-deal.jpg'
-import theRealDealImgMobile from '../assets/about/mobile/image-real-deal.jpg'
+import theRealDealImgDesktop from 'assets/about/desktop/image-real-deal.jpg'
+import theRealDealImgTablet from 'assets/about/tablet/image-real-deal.jpg'
+import theRealDealImgMobile from 'assets/about/mobile/image-real-deal.jpg'
 
 
 

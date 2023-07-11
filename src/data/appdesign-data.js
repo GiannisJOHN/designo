@@ -1,8 +1,8 @@
-import webImg1 from '../assets/app-design/desktop/image-airfilter.jpg'
-import webImg2 from '../assets/app-design/desktop/image-eyecam.jpg'
-import webImg3 from '../assets/app-design/desktop/image-faceit.jpg'
-import webImg4 from '../assets/app-design/desktop/image-todo.jpg'
-import webImg5 from '../assets/app-design/desktop/image-loopstudios.jpg'
+import webImg1 from 'assets/app-design/desktop/image-airfilter.jpg'
+import webImg2 from 'assets/app-design/desktop/image-eyecam.jpg'
+import webImg3 from 'assets/app-design/desktop/image-faceit.jpg'
+import webImg4 from 'assets/app-design/desktop/image-todo.jpg'
+import webImg5 from 'assets/app-design/desktop/image-loopstudios.jpg'
 
 
 export const appdesignInfo = {

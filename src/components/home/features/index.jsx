@@ -1,6 +1,6 @@
 import React from 'react'
-import featuresData from '../../data/features-data.js'
-import FeaturesElement from './features-element'
+import featuresData from '../../../data/features-data.js'
+import FeaturesElement from './features-element.jsx'
 import './features.css'
 
 function Features() {
