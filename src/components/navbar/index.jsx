@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../../assets/shared/desktop/logo-dark.png'
-import { Link } from "react-router-dom";
+import logo from 'assets/shared/desktop/logo-dark.png'
+import { Link } from "react-router-dom"
 import './navbar.css'
 
 function Navbar() {
@@ -15,6 +15,9 @@ function Navbar() {
                 </li>
                 <li>
                     <Link to='/locations'>LOCATIONS</Link>
+                </li>
+                <li>
+                    <Link to='/contact'>CONTACT</Link>
                 </li>
             </ul>
         </nav>

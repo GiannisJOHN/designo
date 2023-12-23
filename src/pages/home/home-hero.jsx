@@ -1,5 +1,5 @@
 import React from 'react'
-import phone from '../../assets/home/desktop/image-hero-phone2.png'
+import phone from 'assets/home/desktop/image-hero-phone2.png'
 import './home.css'
 
 function HomeHero() {

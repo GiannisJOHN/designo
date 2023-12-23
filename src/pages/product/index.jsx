@@ -1,10 +1,10 @@
 import React from 'react'
-import App from 'components/shared-components/app'
-import PageHeader from 'components/shared-components/page-header'
-import ProductGrid from 'components/shared-components/product-grid'
-import ProductCard from 'components/shared-components/product-card'
+import App from 'components/app'
+import PageHeader from 'components/page-header'
+import ProductGrid from 'pages/product/product-grid'
+import ProductCard from 'pages/product/product-card'
 import { renderItems} from 'utils/render-items'
-import LinkBox from 'components/shared-components/link-box'
+import LinkBox from 'components/link-box'
 import { useMatches } from "react-router-dom"
 
 //Data

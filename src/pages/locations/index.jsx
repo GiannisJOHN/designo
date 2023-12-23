@@ -1,8 +1,8 @@
 import React from 'react'
-import App from 'components/shared-components/app'
-import LocationsContainer from 'components/Locations/locations-container'
+import App from 'components/app'
+import LocationsContainer from 'pages/locations/locations-container'
 import { renderItems } from 'utils/render-items'
-import LocationItem from 'components/Locations/locations-item'
+import LocationItem from 'pages/locations/locations-item'
 import { locationsData } from 'data/locations-data'
 
 function Locations() {

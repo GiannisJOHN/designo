@@ -1,7 +1,7 @@
 import React from 'react'
-import aboutImgDesktop from '../../../assets/about/desktop/image-about-hero.jpg'
-import aboutImgTablet from '../../../assets/about/tablet/image-about-hero.jpg'
-import aboutImgMobile from '../../../assets/about/mobile/image-about-hero.jpg'
+import aboutImgDesktop from 'assets/about/desktop/image-about-hero.jpg'
+import aboutImgTablet from 'assets/about/tablet/image-about-hero.jpg'
+import aboutImgMobile from 'assets/about/mobile/image-about-hero.jpg'
 import './about-hero.css'
 
 function AboutHero() {

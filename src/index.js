@@ -1,12 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Home from './views/Home'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import ProductPage from 'views/Product-page'
-import About from './views/About'
-import Locations from './views/Locations'
 
+//pages
+import Home from './pages/home'
+import ProductPage from 'pages/product'
+import About from './pages/about'
+import Locations from './pages/locations'
+import Contact from 'pages/contact'
 
+//css
 import './css/global-styles.css'
 import './css/utility.css'
 
@@ -23,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/locations",
     element: <Locations />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
   {
     path: "/webdesign",
