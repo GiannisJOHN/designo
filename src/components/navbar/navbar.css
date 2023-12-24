@@ -11,10 +11,39 @@
     list-style-type: none;
 }
 
+.navbar-list-a {
+    text-decoration: none;
+    color: var(--color-dark-grey);
+}
+
 .navbar-logo {
     width: 196px;
 }
 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burger-line {
+    width: 40px;
+    height: 4px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+@media (max-width: 680px) {
+    .navbar-list {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+}
 @media (max-width: 375px) {
     .navbar-container {
         height: 96px;

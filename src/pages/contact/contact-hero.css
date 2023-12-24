@@ -53,3 +53,29 @@
     border-bottom: solid 1px var(--color-white);
     margin-bottom: 24px;
 }
+
+@media (max-width: 1060px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-paragraph, .contact-form {
+        max-width: none;
+    }
+    .contact-paragraph {
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-container {
+        padding: 71px 58px 71px 58px;
+        border-radius: 0;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-container {
+        padding: 72px 24px 72px 24px;
+    }
+}

@@ -45,5 +45,12 @@ pages/components
 
 
 #### Improve
-
 01. improve naming for links (to the Locations page) that appear on the About and Contact page. Also, the place in folder structure.
+02. repeat markdown vs extensive css manipulation. What should i do with the responsive nav menu
+
+#### To-Do 
+01. responsive form __DONE__
+02. navbar
+03. placeholder for about images
+04. add circles
+05. links to location not working

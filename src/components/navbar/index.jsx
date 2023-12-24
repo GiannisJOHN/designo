@@ -11,15 +11,20 @@ function Navbar() {
             </Link>
             <ul className='navbar-list'>
                 <li>
-                    <Link to='/about'>OUR COMPANY</Link>
+                    <Link to='/about' className='navbar-list-a'>OUR COMPANY</Link>
                 </li>
                 <li>
-                    <Link to='/locations'>LOCATIONS</Link>
+                    <Link to='/locations' className='navbar-list-a'>LOCATIONS</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>CONTACT</Link>
+                    <Link to='/contact' className='navbar-list-a'>CONTACT</Link>
                 </li>
             </ul>
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
         </nav>
     )
 }
