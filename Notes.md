@@ -6,6 +6,17 @@ FOLDERS
 - Utils: 
 01. Here you can find utility, pure, reusable functions that render lists inside components. This approach is very useful to keep components short and visually clean.
 
+
+The idea behind this __renderItems__ function is to provide a generic way to render a list of items using a specified React component (Component). By passing in the data array and the component to be used for rendering each item, you create a reusable and flexible function.
+
+This is a common pattern in React applications. It allows you to abstract the rendering logic away from the component that calls renderItems, making the code more modular. The calling component can focus on providing the data and the component to be rendered, while the renderItems function takes care of the mapping and rendering process.
+
+In essence, it promotes reusability and separation of concerns, making your codebase more maintainable and easier to understand.
+
+In React, it's generally a good practice to avoid directly modifying the components themselves, and instead, focus on creating new instances or variations of components. This helps maintain the immutability of components, making the code more predictable and easier to reason about.
+
+In the case of __renderItems__, it adheres to this principle by creating new instances of the specified component for each item in the data array, rather than modifying the original component.
+
 - Components:
 01. shared components
 
@@ -46,11 +57,24 @@ pages/components
 
 #### Improve
 01. improve naming for links (to the Locations page) that appear on the About and Contact page. Also, the place in folder structure.
-02. repeat markdown vs extensive css manipulation. What should i do with the responsive nav menu
+02. repeat markdown vs extensive css manipulation. What should I do with the responsive nav menu
+
 
 #### To-Do 
 01. responsive form __DONE__
-02. navbar
+02. navbar __DONE__
 03. placeholder for about images
 04. add circles
-05. links to location not working
+05. links to the Location page not working
+06. make the burger menu functional __DONE__
+
+#### comment imports
+small letters, in order below
+
+01. components
+02. utility functions
+03. css
+04. data
+
+#### a new approach to handling class additions and removals conditionally
+Create a separate object 'theme' that includes classes (strings) and functions which will return the corresponding class conditionally. With this approach, you can handle the conditions much easier keeping the JSX clean. Also, it is very easy to test this simple JavaScript object because it can be placed outside a react component.

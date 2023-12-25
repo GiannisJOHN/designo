@@ -1,19 +1,23 @@
 import React from 'react'
-import featuresData from '../../data/features-data.js'
+
+//components
 import FeaturesElement from './features-element.jsx'
+
+//utility function
+import { renderItems } from 'utils/render-items.js'
+
+//css
 import './features.css'
+
+//data
+import featuresData from '../../data/features-data.js'
+
 
 function Features() {
 
-    function renderFeatureElements(data) {
-        return data.map((each) => {
-            return <FeaturesElement data={each} />
-        })
-    }
-
     return (
         <section className='container features-container section-space'>
-            {renderFeatureElements(featuresData)}
+            {renderItems(featuresData, FeaturesElement)}
         </section>
     )
 }
