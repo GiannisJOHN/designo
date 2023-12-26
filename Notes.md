@@ -83,3 +83,22 @@ Create a separate object 'theme' that includes classes (strings) and functions w
 
 #### css
 In the context of a naming convention, "structural" refers to the structure or nature of the element being named. It suggests that the names are based on the inherent characteristics or functionality of the elements, rather than their position or visual attributes. So, when you use a structural naming convention, you focus on describing what the elements are in terms of their function or purpose within a structure.
+
+
+#### git
+Switch to master and merge changes:
+    git checkout master
+
+Merge changes from the develop branch
+    git merge develop
+
+Push changes to GitHub:
+
+Push master branch
+    git push origin master
+
+Push develop branch
+    git push origin develop
+
+Switch back to develop and continue coding:
+    git checkout develop
