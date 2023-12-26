@@ -34,6 +34,9 @@ function ProductPage() {
         info = graphicdesignInfo
         data = graphicdesignData
         break
+        default:
+        // Intentionally empty default case
+        break
     }
     
     return (
