@@ -64,6 +64,7 @@
     border: none;
     padding: 5px;
 }
+
 .burger-menu:focus {
     outline: 2px solid grey; /* Customize the outline style */
 }
@@ -80,6 +81,7 @@
     .list-desktop {
         display: none;
     }
+    
     .burger-menu {
         display: flex;
     }

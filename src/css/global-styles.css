@@ -79,15 +79,28 @@
 	letter-spacing: 1px;
 }
 
-.primary-btn:hover {
+
+.primary-btn:hover, .btn-link:hover {
 	background-color: var(--color-light-peach);
 	color: var(--color-white);
+}
+
+.btn-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: inherit;
+	text-decoration: none;
+	border-radius: inherit;
 }
 
 .btn-on-dark {
 	background-color: var(--color-white);
 	color: var(--color-dark-grey);
 }
+
 
 .btn-on-light {
 	background-color: var(--color-peach);
@@ -118,5 +131,4 @@
 	.remove-padding {
         padding: 0;
     }
-
 }
