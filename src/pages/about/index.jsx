@@ -1,12 +1,18 @@
 import React from 'react'
+
+//components
 import App from 'components/app'
 import AboutHero from 'pages/about/about-hero'
 import AboutInfo from 'pages/about/about-info'
-import { aboutInfoData } from 'data/about-data'
 import LocationLinksContainer from 'pages/locations/location-links-container'
 import LocationLinksItem from 'pages/locations/location-links-item'
-import { locationLinksData } from 'data/location-links-data'
+
+//utility functions
 import { renderItems } from 'utils/render-items'
+
+//data
+import { locationLinksData } from 'data/location-links-data'
+import { aboutInfoData } from 'data/about-data'
 
 function About() {
     return (

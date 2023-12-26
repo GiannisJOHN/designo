@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
+//css
 import './location-links-item.css'
 
 function LocationLinksItem(props) {

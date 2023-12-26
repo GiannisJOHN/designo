@@ -1,10 +1,10 @@
 import React from 'react'
-import HomeHero from 'pages/home/home-hero'
-import Features from 'pages/home/features'
 
-//shared components
+//components
 import App from 'components/app'
 import Links from 'components/links'
+import HomeHero from 'pages/home/home-hero'
+import Features from 'pages/home/features'
 
 //css
 import './home.css'

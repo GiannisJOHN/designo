@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 
+//css
 import './navbar.css'
 
 function Navlist(props) {

@@ -1,4 +1,6 @@
 import React from 'react'
+
+//css
 import './product-grid.css'
 
 function ProductGrid(props) {

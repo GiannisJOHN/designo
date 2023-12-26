@@ -1,5 +1,9 @@
 import React from 'react'
+
+//icons and images
 import phone from 'assets/home/desktop/image-hero-phone2.png'
+
+//css
 import './home.css'
 
 function HomeHero() {

@@ -1,13 +1,17 @@
 import React from 'react'
+import { useMatches } from "react-router-dom"
+
+//components
 import App from 'components/app'
 import PageHeader from 'components/page-header'
 import ProductGrid from 'pages/product/product-grid'
 import ProductCard from 'pages/product/product-card'
-import { renderItems} from 'utils/render-items'
 import LinkBox from 'components/link-box'
-import { useMatches } from "react-router-dom"
 
-//Data
+//utility function
+import { renderItems} from 'utils/render-items'
+
+//data
 import { webdesignInfo, webdesignData } from 'data/webdesign-data'
 import { appdesignInfo, appdesignData } from 'data/appdesign-data'
 import { graphicdesignInfo, graphicdesignData } from 'data/graphicdesign-data'

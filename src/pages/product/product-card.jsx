@@ -1,4 +1,6 @@
 import React from 'react'
+
+//css
 import './product-card.css'
 
 function ProductCard(props) {

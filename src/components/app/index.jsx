@@ -1,5 +1,7 @@
 
 import useToTop from "custom-hooks/to-top"
+
+//components
 import CallToAction from "../call-to-action"
 import Footer from "../footer"
 import Navbar from "../navbar"

@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react'
-import logo from 'assets/shared/desktop/logo-dark.png'
 import { Link } from "react-router-dom"
-import './navbar.css'
+
+//icons and images
+import logo from 'assets/shared/desktop/logo-dark.png'
+
+//components
 import Navlist from './navlist'
+
+//css
+import './navbar.css'
+
 
 function Navbar() {
       const [isMobile, setIsMobile] = useState(false)

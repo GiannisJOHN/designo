@@ -1,4 +1,6 @@
 import React from 'react'
+
+//css
 import './locations-item.css'
 
 function LocationItem(props) {

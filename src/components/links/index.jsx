@@ -1,5 +1,9 @@
 import React from 'react'
+
+//components
 import LinkBox from '../link-box'
+
+//css
 import './links.css'
 
 function Links() {

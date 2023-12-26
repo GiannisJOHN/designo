@@ -1,7 +1,11 @@
 import React from 'react'
+
+//icons and images
 import aboutImgDesktop from 'assets/about/desktop/image-about-hero.jpg'
 import aboutImgTablet from 'assets/about/tablet/image-about-hero.jpg'
 import aboutImgMobile from 'assets/about/mobile/image-about-hero.jpg'
+
+//css
 import './about-hero.css'
 
 function AboutHero() {
@@ -14,9 +18,9 @@ function AboutHero() {
             </div>
             <div className='about-hero-img-container'>
                 <picture>
-                    <source  srcSet={aboutImgDesktop} media="(min-width: 771px)" type="image/jpg"/>
-                    <source  srcSet={aboutImgTablet} media="(min-width: 376px)" type="image/jpg"/>
-                    <source  srcSet={aboutImgMobile} media="(min-width: 0)" type="image/jpg"/>
+                    <source srcSet={aboutImgDesktop} media="(min-width: 771px)" type="image/jpg"/>
+                    <source srcSet={aboutImgTablet} media="(min-width: 376px)" type="image/jpg"/>
+                    <source srcSet={aboutImgMobile} media="(min-width: 0)" type="image/jpg"/>
                     <img className='about-hero-img' src="" alt="" />
                 </picture>
             </div>

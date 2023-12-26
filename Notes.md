@@ -71,10 +71,15 @@ pages/components
 #### comment imports
 small letters, in order below
 
-01. components
-02. utility functions
-03. css
-04. data
+icons and images
+components
+custom hooks
+utility functions
+css
+data
 
 #### a new approach to handling class additions and removals conditionally
 Create a separate object 'theme' that includes classes (strings) and functions which will return the corresponding class conditionally. With this approach, you can handle the conditions much easier keeping the JSX clean. Also, it is very easy to test this simple JavaScript object because it can be placed outside a react component.
+
+#### css
+In the context of a naming convention, "structural" refers to the structure or nature of the element being named. It suggests that the names are based on the inherent characteristics or functionality of the elements, rather than their position or visual attributes. So, when you use a structural naming convention, you focus on describing what the elements are in terms of their function or purpose within a structure.

@@ -1,4 +1,6 @@
 import React from 'react'
+
+//css
 import './contact-hero.css'
 
 function ContactHero() {

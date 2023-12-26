@@ -1,4 +1,6 @@
 import React from 'react'
+
+//css
 import './about-info.css'
 
 function AboutInfo(props) {

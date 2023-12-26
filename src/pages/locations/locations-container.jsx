@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-
+//css
 import './locations-container.css'
 
 function LocationsContainer(props) {
