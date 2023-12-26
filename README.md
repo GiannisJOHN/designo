@@ -1,4 +1,4 @@
-# Frontendmentor.io challenge ‘Planets fact site’
+# DESIGNO website
 
 - [Overview](#overview)
 - [Html](#html)
